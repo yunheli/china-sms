@@ -3,7 +3,7 @@
 - npm install china-sms
 - 云片的使用
 ```js
-  var YP = require('china-sms').yunpian
+  var YP = require('china-sms').Yunpian
   var yp = new YP('appKey')
   var hash={mobile:'',text:''}
   yp.sendSms(hash,function(err,body){
