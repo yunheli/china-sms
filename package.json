@@ -1,0 +1,25 @@
+{
+  "name": "china-sms",
+  "version": "0.0.1",
+  "description": "a package to send sms",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:yunheli/china-sms.git"
+  },
+  "keywords": [
+    "sms"
+  ],
+  "author": "willcoding <liyunhehappy6@gmail.com> (http://willcoding.lofter.com/)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yunheli/china-sms/issues"
+  },
+  "homepage": "https://github.com/yunheli/china-sms",
+  "dependencies": {
+    "request": "~2.57.0"
+  }
+}
