@@ -1,5 +1,8 @@
 language: node_js
 node_js:
-  - "0.11"
-  - "0.10"
-script: npm test
+- '0.11'
+- '0.10'
+env:
+  global:
+    secure: mGRh7WIK/euML+kS7Nv/Maq6pf6MGNlTNve2MzfRWPy4gawYmESg3APg4EAq3Jx8fxC6nOHHprL9GG+OnWi3KjxSDVAyrF1nTB0HRRGcGRYSYE0RT/2yPW/h8z+oOxFpicvVxM5lm6qZ7NFzyJ/a+KywGOr9wWM0laJNI2t6AUorCKWPzx/yiLncpFTybaRMnzIqFU9AOR6ecJO2gwJMHaPs1cYvMxMEJvsehJ4j9KJryDPBvgoGfj65jF91kRXXx24BeDXCspegDf0ll60Jufam8xTyV4gRYifuDfjS7Tq03hx8AQdX8buyHKX8FTtvhiVqSHS0plGGPJknwQs6OTyNl9Fh4qtF42E/+7ktGZN2vS/tPY8PrT+AyItryC9hHGusmure9IIrf0zQ6XeZc/oFpKI8KHlAHaOioiXyQXy7CtX47gojVskRsM40PElToy+MqVIhQZJxU0ZXspAkqw0Z2/LGCGAr84yOaqv8ay5NPSo07jqRn0eAOUu/WDeywy32PZBRo2vnHlszBcQHA8P4LDv6xuth6KlCbJbEJmrv0fIbz6K04KSzfzGiIYE73sA7CiR3eDq9mb+GvfTTUy0wMWN8vkBju1X9W3YGVbq+QQdg/wK+SC8azmBSgJSSTfnhN3CyXPCrjUj0YoGmfupWq1Y2jAx0BYQovyMsU7Y=
+script: echo $FLOW
