@@ -6,7 +6,9 @@ script:
 - echo $FLOW
 addons:
   artifacts:
+    s3_region: "cn-north-1" # defaults to "us-east-1"
     artifacts: true
+    debug: true
     paths:
     - $(git ls-files -o | tr "\n" ":")
     - $(ls /var/log/*.log | tr "\n" ":")
